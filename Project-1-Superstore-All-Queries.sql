@@ -1,9 +1,5 @@
 -- ================================================================
--- PROJECT 1 - SUPERSTORE: ALL OF JACK'S QUERIES (MASTER FILE)
--- One home for every query from the Superstore project, kept
--- updated by Dalek as sessions complete. Jack's working dialect
--- is T-SQL (SQL Server, VS Code, db: superstore); the Query Lab
--- drills run in SQLite in the SQL Practice space.
+-- PROJECT 1 - SUPERSTORE: QUERIES (MASTER FILE)
 -- Data: 6,500 order lines, 3,446 orders, 220 customers, 2021-2024.
 -- ================================================================
 
@@ -57,13 +53,13 @@ FROM dbo.superstore_orders
 GROUP BY product_name, category
 ORDER BY total_sales DESC;
 
--- Jack's own follow-up (2026-11-12): Conference Table by discount level -
+-- Follow-up (2026-11-12): Conference Table by discount level -
 -- +$5,079 at 0% discount, loses money at EVERY discount level; ~3 of 4 lines discounted.
 -- (Finding recorded from his session; query pattern: same as Q5 with a discount filter/grouping.)
 
 
 -- ================================================================
--- REVIEW DRILLS - the two missed quiz subjects, hands-on (2026-11-13)
+-- REVIEW DRILLS -
 -- ================================================================
 
 -- DRILL 1 - NULLs & missing data (SQL Practice space Query Lab, SQLite, orders_dirty)
@@ -124,7 +120,6 @@ ORDER BY order_year;
 
 -- ================================================================
 -- SESSION 2 - Filtering and grouping (COMPLETE 2026-11-13)
--- Jack's own queries, transcribed from his VS Code session.
 -- ================================================================
 
 -- Q6 - All order lines from 2024 with profit below 0: how many, what total loss?
@@ -199,7 +194,7 @@ ORDER BY
 
 
 -- ================================================================
--- SESSION 3 - Dates and window functions (IN PROGRESS)
+-- SESSION 3 - Dates and window functions 
 -- Q11-Q13 complete 2026-11-13. Q14 paused mid-build the same evening
 -- (checkpoint: two-CTE structure solved - grouped sales, then RANK -
 -- remaining step is the outer filter, WHERE rnk = 1; resumes Sat 2026-11-14).
@@ -262,9 +257,7 @@ SELECT month_ordered,
 FROM monthly
 ORDER BY month_ordered;
 
--- Q14 - Best-selling sub-category within each region, RANK(). (Jack's query -
--- written from a blank page Sat 2026-11-14 after three warm-up reps; completed
--- the build paused 2026-11-13. Graded exact.)
+-- Q14 - Best-selling sub-category within each region, RANK(). 
 -- Result: Machines tops Central ($202,401.60), East ($202,429.80) and South
 -- ($167,573.50); West is the exception - Tables #1 at $167,929.40, and West
 -- Tables loses money (-$5,208.37 per Q8 follow-up): the West's best seller
@@ -296,9 +289,7 @@ FROM
     ranked
 WHERE rnk = 1;
 
--- Q15 - Each category's share of total company sales. (Jack's query -
--- completed Sun 2026-11-15 after three share-of-total warm-up reps.
--- Graded exact. PROJECT 1 SQL COMPLETE - all 15 questions.)
+-- Q15 - Each category's share of total company sales. 
 -- Result: Technology 60.45% ($1,742,101.34), Furniture 33.48% ($964,735.00),
 -- Office Supplies 6.08% ($175,088.30). Shares sum to 100.01% on rounding.
 -- Story: Technology is three-fifths of the company; Furniture is a third of
