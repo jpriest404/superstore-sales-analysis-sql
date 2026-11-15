@@ -1,6 +1,7 @@
 # Superstore Sales: Revenue Trend Report for Leadership
 
-**Growth is volume, not margin.** Sales grew ~49% in four years while profit margin stayed near 9%, and one product line is quietly eating the profit.
+**Growth is volume, not margin.**   
+Sales grew ~49% in four years while profit margin stayed near 9%, and one product line is quietly eating the profit.
 
 Prepared from a 15-question SQL analysis (T-SQL) of the Superstore dataset: 6,500 order lines, 3,446 orders, 220 customers, 2021–2024.
 
@@ -54,7 +55,7 @@ Monthly 2024 sales ran from a July trough of $45,548 to a November–December su
 
 Fix the discount policy before chasing more volume.
 
-1. **Protect the engine.** Technology, at a 15.8% margin on 60% of sales, funds the business. Keep its discount discipline as the model.
+1. **Protect the Technology.** Technology, at a 15.8% margin on 60% of sales, funds the business. Keep its discount discipline as the model.
 2. **Re-price or re-discount Tables first**, starting with the Conference Table: cap discounts, set a floor price, or require approval above a discount threshold. A product that only profits at full price should rarely be discounted.
 3. **Review Furniture discounting as a policy, not case by case.** A 19.2% average discount against a negative margin means the current approval rules are the problem.
 4. **Keep growing volume, but measure margin with it.** Four years of ~49% sales growth bought only ~1 point of margin. Report margin next to sales in every monthly review so growth stops masking the leak.
