@@ -4,26 +4,26 @@ A 15-question SQL analysis of the Superstore retail dataset, written in T-SQL (S
 
 ## Business questions answered
 
-**Session 1: First cuts**
-1. How large is the dataset: order lines, distinct orders, total sales, total profit?
-2. What are sales, profit, and margin by category?
-3. What is profit by region?
-4. How many distinct customers are in each segment?
-5. What are the top 10 products by sales, and are they profitable?
+**Session 1: First cuts** 
+1. How large is the dataset: order lines, distinct orders, total sales, total profit? 
+2. What are sales, profit, and margin by category? 
+3. What is profit by region? 
+4. How many distinct customers are in each segment? 
+5. What are the top 10 products by sales, and are they profitable? 
 
-**Session 2: Filtering and grouping**
-6. How many order lines in 2024 lost money, and what was the total loss?
-7. What is the average discount by category?
-8. What are sales by sub-category in the West region?
-9. Which customers (name + segment) have more than 20 order lines?
-10. For each ship mode: how many distinct orders, what average sales, and what total profit?
+**Session 2: Filtering and grouping**  
+6. How many order lines in 2024 lost money, and what was the total loss?  
+7. What is the average discount by category?  
+8. What are sales by sub-category in the West region?  
+9. Which customers (name + segment) have more than 20 order lines?  
+10. For each ship mode: how many distinct orders, what average sales, and what total profit?  
 
-**Session 3: Dates and window functions**
-11. What were monthly sales in 2024?
-12. What was the month-over-month change in 2024 sales?
-13. What is the running total of 2024 sales by month?
-14. What is the best-selling sub-category within each region?
-15. What is each category's share of total company sales?
+**Session 3: Dates and window functions** 
+11. What were monthly sales in 2024?  
+12. What was the month-over-month change in 2024 sales?  
+13. What is the running total of 2024 sales by month?  
+14. What is the best-selling sub-category within each region?  
+15. What is each category's share of total company sales?  
 
 ## Key findings
 
