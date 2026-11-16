@@ -6,7 +6,6 @@
 
 -- ================================================================
 -- SESSION 1 - First cuts (COMPLETE 2026-11-12)
--- Verified queries; Jack's results matched these exactly.
 -- ================================================================
 
 -- Q1 - How big is this dataset? Lines, orders, sales, profit.
