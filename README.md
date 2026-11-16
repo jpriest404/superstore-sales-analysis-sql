@@ -62,7 +62,7 @@ Each query is preceded by the business question it answers and followed by the v
 
 ## Author
 
-John "Jack" Priest, operations leader transitioning into data analytics.
+John "Jack" Priest
 
 Portfolio: https://jpriest404.github.io
 GitHub: https://github.com/jpriest404
