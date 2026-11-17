@@ -96,7 +96,7 @@ The proof case is the Conference Table: at 0% discount it is profitable (+$5,079
 
 ## Interactive Dashboard and Visualizations
 
-A Tableau KPI dashboard on the same Superstore data is in progress (Project 2). It is not linked here yet. When it ships, it will carry the same verified totals: sales $2,881,925 and profit $260,282.
+The Tableau KPI dashboard built on this same Superstore data (Project 2) is live on Tableau Public, with the same verified totals: sales $2,881,925 and profit $260,282. Main dashboard: https://public.tableau.com/app/profile/john.priest6272/viz/SuperstoreDashboardMain/SuperstoreDashboard. Deep dive (sub-category, discount, and monthly views): https://public.tableau.com/app/profile/john.priest6272/viz/SuperstoreDashboard_17948754317760/SuperstoreDeepDive.
 
 ---
 
