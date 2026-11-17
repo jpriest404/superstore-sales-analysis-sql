@@ -63,7 +63,7 @@ Each query is preceded by the business question it answers and followed by the v
 
 ## Phase 2: Excel cross-check (same questions, second method)
 
-The headline questions were re-answered in Excel in `Superstore-Excel-Analysis.xlsx`, fed by a live Power Query connection to the same SQL Server database, so the workbook refreshes from the source instead of relying on a pasted extract. Four pivot tables, each with its own chart and a one-line takeaway:
+The headline questions were re-answered in Excel in `Superstore-Excel-Analysis.xlsx`, fed by a live Power Query connection to the same SQL Server database, so the workbook refreshes from the source instead of relying on a pasted extract. The full write-up, with the Excel charts, is in `Excel-Analysis-Report.md`, which mirrors the leadership report using the Excel data and charts. Four pivot tables, each with its own chart and a one-line takeaway:
 
 - **Pivot A, the discount cliff:** profit by discount level and category (clustered column charts). Furniture earns $16,477 at full price and loses money at every discount from 20% up, while its sales volume holds up even at deep discounts.
 - **Pivot B, where the loss lives:** Furniture profit by sub-category (bar chart). Tables carries 84% of the total Furniture loss at an average discount of about 19%, the same as the other sub-categories.
