@@ -6,7 +6,8 @@ Growth is volume, not margin. Sales grew about 49% in four years while profit ma
 
 This report comes from a 15-question SQL analysis (T-SQL) of the Superstore dataset: 6,500 order lines, 3,446 orders, 220 customers, 2021 to 2024. Total sales were $2.88M and total profit was $260K, a 9.0% overall margin.
 
-The headline finding: Technology earns more profit than the company keeps, and Furniture spends the difference. The fix is a discount policy change, not more volume.
+### Finding:   
+Technology earns more profit than the company keeps, and Furniture spends the difference. The fix is a discount policy change, not more volume.
 
 ---
 
@@ -66,12 +67,12 @@ The analysis was run as 15 questions in T-SQL against the Superstore data in SQL
 
 ![Profit margin by category](charts/category_margin.png)
 
-### 3. The leak is Tables
+### 3. Tables are losing money all four years.
 
 - **Insight:** Tables are 65.63% of all Furniture sales ($633,158) and lost $26,617, which is 84% of Furniture's entire loss. The Conference Table alone sold $401,498 and lost $16,973. All four Furniture products in the company's top 10 by sales lose money.
 - **Interpretation:** The loss is concentrated, not spread across the category. Fixing Tables fixes most of Furniture.
 
-### 4. Discounting, not demand, is the margin leak
+### 4. Discounting, not demand, is the margin loss
 
 - **Insight:** The discount ranking is the profit ranking, flipped. Furniture averages a 19.2% discount and a negative 3.29% margin. Office Supplies averages 10.1% and earns 9.51%. Technology averages 5.0% and earns 15.8%.
 
