@@ -65,10 +65,10 @@ Each query is preceded by the business question it answers and followed by the v
 
 The headline questions were re-answered in Excel in `Superstore-Excel-Analysis.xlsx`, fed by a live Power Query connection to the same SQL Server database, so the workbook refreshes from the source instead of relying on a pasted extract. The full write-up, with the Excel charts, is in `Excel-Analysis-Report.md`, which mirrors the leadership report using the Excel data and charts. Four pivot tables, each with its own chart and a one-line takeaway:
 
-- **Pivot A, the discount cliff:** profit by discount level and category (clustered column charts). Furniture earns $16,477 at full price and loses money at every discount from 20% up, while its sales volume holds up even at deep discounts.
-- **Pivot B, where the loss lives:** Furniture profit by sub-category (bar chart). Tables carries 84% of the total Furniture loss at an average discount of about 19%, the same as the other sub-categories.
-- **Pivot C, region check:** profit by region and category. Furniture is losing money in all four regions, so the problem is category pricing and discount policy, not a region.
-- **Pivot D, 2024 monthly trend:** sales and profit by month (line chart). Sales trend higher in the fall with a dip in July, while profit margins hardly move: growth is volume, not margin.
+- **Pivot A - Discount:** profit by discount level and category (clustered column charts). Furniture earns $16,477 at full price and loses money at every discount from 20% up, while its sales volume holds up even at deep discounts.
+- **Pivot B - Furniture Dis:** Furniture profit by sub-category (bar chart). Tables carries 84% of the total Furniture loss at an average discount of about 19%, the same as the other sub-categories.
+- **Pivot C - Regional Profit:** profit by region and category. Furniture is losing money in all four regions, so the problem is category pricing and discount policy, not a region.
+- **Pivot D - 2024 Monthly Trend:** sales and profit by month (line chart). Sales trend higher in the fall with a dip in July, while profit margins hardly move: growth is volume, not margin.
 
 Every pivot total ties back to the SQL results to the dollar (total sales $2,881,924.65, total profit $260,282.21). The same findings are also visualized in Tableau (see the leadership report), so three methods agree: SQL, Excel, and Tableau.
 

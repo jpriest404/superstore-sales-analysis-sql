@@ -37,10 +37,10 @@ Technology earns more profit than the company keeps, and Furniture spends the di
 
 The analysis was run as four PivotTables in one workbook, each with its own PivotChart in a different style, and a one-line takeaway written under each pivot.
 
-- **Pivot A, discount cliff:** discount in rows, category in columns, Sum of profit and Sum of sales. Charted as clustered columns, profit and sales on separate charts so each measure keeps its own scale. Loss bars are filled red, point by point, so below-zero results stand out.
-- **Pivot B, where the loss lives:** category filtered to Furniture, sub-category in rows, Sum of profit, Sum of sales, and Average of discount. Charted as horizontal bars, ranked by eye against the zero line.
-- **Pivot C, region check:** region in rows, category in columns, Sum of profit. Charted as clustered columns with the Furniture losses in red below the axis.
-- **Pivot D, 2024 trend:** order dates grouped by month with the year filtered to 2024, Sum of sales and Sum of profit. Charted as a line chart.
+- **Pivot A - Discount (the discount cliff):** discount in rows, category in columns, Sum of profit and Sum of sales. Charted as clustered columns, profit and sales on separate charts so each measure keeps its own scale. Loss bars are filled red, point by point, so below-zero results stand out.
+- **Pivot B - Furniture Dis (where the loss lives):** category filtered to Furniture, sub-category in rows, Sum of profit, Sum of sales, and Average of discount. Charted as horizontal bars, ranked by eye against the zero line.
+- **Pivot C - Regional Profit (region check):** region in rows, category in columns, Sum of profit. Charted as clustered columns with the Furniture losses in red below the axis.
+- **Pivot D - 2024 Monthly Trend:** order dates grouped by month with the year filtered to 2024, Sum of sales and Sum of profit. Charted as a line chart.
 - **Verification:** every pivot grand total was tied back to the SQL results before the takeaway was written (total sales $2,881,924.65, total profit $260,282.21, Furniture profit -$31,701.39, 2024 sales $845,844.15).
 
 ---
