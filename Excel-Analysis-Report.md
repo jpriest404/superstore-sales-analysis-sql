@@ -4,7 +4,7 @@
 
 Growth is volume, not margin. Sales grew about 49% in four years while profit margin stayed near 9%, and one product line is quietly eating the profit.
 
-This report re-answers the headline questions from the Superstore SQL analysis in Excel, as an independent cross-check. The workbook (`Superstore-Excel-Analysis.xlsx`) is fed by a live Power Query connection to the same SQL Server database the SQL queries ran against: 6,500 order lines, 3,446 orders, 220 customers, 2021 to 2024. Total sales were $2.88M and total profit was $260K, a 9.0% overall margin, matching the SQL results to the dollar.
+This report re-answers the headline questions from the Superstore SQL analysis in Excel, as an independent cross-check. The workbook ([Superstore-Excel-Analysis.xlsx](Superstore-Excel-Analysis.xlsx)) is fed by a live Power Query connection to the same SQL Server database the SQL queries ran against: 6,500 order lines, 3,446 orders, 220 customers, 2021 to 2024. Total sales were $2.88M and total profit was $260K, a 9.0% overall margin, matching the SQL results to the dollar.
 
 ### Finding:
 Technology earns more profit than the company keeps, and Furniture spends the difference. The fix is a discount policy change, not more volume.
@@ -93,7 +93,7 @@ The analysis was run as four PivotTables in one workbook, each with its own Pivo
 
 The same dataset was analyzed three ways: 15 T-SQL questions in SQL Server (Project 1), two dashboards in Tableau (Project 2), and this Excel workbook. All three agree on the control totals to the dollar: sales $2,881,925, profit $260,282, Furniture profit -$31,701, Tables profit -$26,617. A finding that survives three independent methods is one leadership can act on.
 
-- SQL queries and leadership report: `Project-1-Superstore-All-Queries.sql`, `Project-1-Leadership-Report.md`
+- SQL queries and leadership report: [Project-1-Superstore-All-Queries.sql](Project-1-Superstore-All-Queries.sql), [Project-1-Leadership-Report.md](Project-1-Leadership-Report.md)
 - Tableau dashboards: https://public.tableau.com/app/profile/john.priest6272/viz/SuperstoreDashboardMain/SuperstoreDashboard and https://public.tableau.com/app/profile/john.priest6272/viz/SuperstoreDashboard_17948754317760/SuperstoreDeepDive
 
 ---
