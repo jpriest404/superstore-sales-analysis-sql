@@ -48,7 +48,7 @@ The analysis was run as 15 questions in T-SQL against the Superstore data in SQL
 - **Insight:** Sales rose from $565,913 in 2021 to $845,844 in 2024, about 49% growth, while profit rose from $49,332 to $79,406. Margin barely moved, from 8.7% to 9.4%.
 - **Interpretation:** The company is selling more, not selling better. Four years of growth bought only about one point of margin, so volume alone will not fix profitability.
 
-![Yearly sales and margin](charts/yearly_trend.png)
+![Yearly sales trend](charts/yearly_trend.png)
 
 ### 2. Technology carries the company, Furniture spends the difference
 
@@ -90,13 +90,17 @@ The proof case is the Conference Table: at 0% discount it is profitable (+$5,079
 - **Insight:** Monthly 2024 sales ran from a July trough of $45,548 to a November to December surge past $100K each month. November posted the largest month-over-month gain of the year (+$42,883). The full-year running total lands on $845,844, which ties back to the annual figure above.
 - **Interpretation:** The year-end surge is real, but it does not change the margin story. The same discount leak applies in strong months and weak ones.
 
-![2024 monthly sales](charts/monthly_2024.png)
+![Monthly sales trend, 2021 to 2024](charts/monthly_trend.png)
 
 ---
 
 ## Interactive Dashboard and Visualizations
 
 The Tableau KPI dashboard built on this same Superstore data (Project 2) is live on Tableau Public, with the same verified totals: sales $2,881,925 and profit $260,282. Main dashboard: https://public.tableau.com/app/profile/john.priest6272/viz/SuperstoreDashboardMain/SuperstoreDashboard. Deep dive (sub-category, discount, and monthly views): https://public.tableau.com/app/profile/john.priest6272/viz/SuperstoreDashboard_17948754317760/SuperstoreDeepDive.
+
+![Superstore KPI dashboard, main view](charts/tableau_dashboard_main.png)
+
+![Superstore deep dive dashboard](charts/tableau_dashboard_deep_dive.png)
 
 ---
 
@@ -119,7 +123,9 @@ The Tableau KPI dashboard built on this same Superstore data (Project 2) is live
     ├── yearly_trend.png
     ├── share_of_sales.png
     ├── category_margin.png
-    └── monthly_2024.png
+    ├── monthly_trend.png
+    ├── tableau_dashboard_main.png
+    └── tableau_dashboard_deep_dive.png
 ```
 
 *Methods note: all figures were produced with SQL (T-SQL) against the Superstore practice dataset and cross-checked against control totals (category shares sum to 100%; the 2024 monthly running total ties to the annual sales figure). Dataset is a public sample used for portfolio analysis; no employer or customer data is included.*
